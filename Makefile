@@ -1,4 +1,4 @@
-obj-m += breakfast.o
+obj-m += breakfast-dkms.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
